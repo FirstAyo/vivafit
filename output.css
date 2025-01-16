@@ -663,6 +663,10 @@ video {
   top: -1.25rem;
 }
 
+.-top-\[450px\] {
+  top: -450px;
+}
+
 .end-1 {
   inset-inline-end: 0.25rem;
 }
@@ -673,74 +677,6 @@ video {
 
 .right-28 {
   right: 7rem;
-}
-
-.top-\[75px\] {
-  top: 75px;
-}
-
-.top-\[80px\] {
-  top: 80px;
-}
-
-.-top-\[450px\] {
-  top: -450px;
-}
-
-.top-\[800px\] {
-  top: 800px;
-}
-
-.top-\[50px\] {
-  top: 50px;
-}
-
-.top-\[500px\] {
-  top: 500px;
-}
-
-.top-\[150px\] {
-  top: 150px;
-}
-
-.top-\[100px\] {
-  top: 100px;
-}
-
-.top-\[120px\] {
-  top: 120px;
-}
-
-.top-\[90px\] {
-  top: 90px;
-}
-
-.top-\[px\] {
-  top: px;
-}
-
-.top-\[85px\] {
-  top: 85px;
-}
-
-.top-\[82px\] {
-  top: 82px;
-}
-
-.top-\[81px\] {
-  top: 81px;
-}
-
-.top-\[79px\] {
-  top: 79px;
-}
-
-.top-\[78px\] {
-  top: 78px;
-}
-
-.top-\[76px\] {
-  top: 76px;
 }
 
 .top-\[74px\] {
@@ -2096,8 +2032,8 @@ video {
   background-color: rgb(255 127 45 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#FF7F2D\]\/70 {
-  background-color: rgb(255 127 45 / 0.7);
+.bg-\[\#FF7F2D\]\/90 {
+  background-color: rgb(255 127 45 / 0.9);
 }
 
 .bg-\[\#f5e0d4\] {
@@ -2127,10 +2063,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#FF7F2D\]\/90 {
-  background-color: rgb(255 127 45 / 0.9);
 }
 
 .bg-\[url\(\'\.\.\/img\/successStory\.png\'\)\] {
