@@ -21,7 +21,8 @@
 
         <!-- nav links section -->
         <nav
-          class="absolute nav-list top-[75px] w-[100%] lg:w-[60%] lg:top-0 bg-[#FF7F2D]/90 lg:bg-transparent lg:relative"
+          class="absolute -top-[450px] w-[100%] lg:w-[60%] lg:top-0 bg-[#FF7F2D]/90 lg:bg-transparent lg:relative "
+          id="nav-list"
         >
           <ul class="flex flex-col lg:flex-row text-white lg:text-black">
             <a href="#" class="py-3 px-10 text-lg">Home</a>
@@ -35,9 +36,12 @@
         <!-- profile image section -->
         <div class="flex items-center mr-3">
           <img src="../img/profilePic.png" alt="" class="py-3 px-10" />
-          <a href="#" class="lg:hidden"
-            ><img src="../img/menu.png" alt="" class="w-10 h-10"
-          /></a>
+          <img
+            src="../img/menu.png"
+            alt=""
+            class="w-10 h-10 lg:hidden"
+            onclick="toggleMenu(this)"
+          />
         </div>
       </header>
 
@@ -572,5 +576,7 @@
         </div>
       </footer>
     </section>
+
+    <script src="./style.js"></script>
   </body>
 </html>
